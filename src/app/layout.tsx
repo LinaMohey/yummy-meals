@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// component files has always to star with a capital letter
-// import { Navigation } from "./components/navigation";
-// => import { Navigation } from "./components/(N)avigation";
-import { Navigation } from "./components/navigation";
+import { Navigation } from "./components/Navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
