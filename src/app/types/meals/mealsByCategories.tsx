@@ -3,7 +3,3 @@ export type Meal = {
   strMeal: string;
   strMealThumb: string;
 };
-
-export type MealsResponse = {
-  meals: Meal[];
-};

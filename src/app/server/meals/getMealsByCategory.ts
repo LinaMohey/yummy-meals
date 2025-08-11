@@ -1,4 +1,5 @@
-import { Meal, MealsResponse } from "../../types/meals/mealsByCategories";
+import { Meal } from "../../types/meals/mealsByCategories";
+import { MealsResponse } from "../../types/meals/mealsByCategoriesResponse";
 
 //hena we will fetch the ALL the meals depend on category
 export async function getMealsByCategory(category: string): Promise<Meal[]> {

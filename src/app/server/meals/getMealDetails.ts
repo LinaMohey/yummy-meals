@@ -1,4 +1,5 @@
-import { Meal, MealResponse } from "../../types/meals/mealDetails";
+import { Meal } from "../../types/meals/mealDetails";
+import { MealResponse } from "../../types/meals/mealDeatilsResponse";
 
 export async function getMealDetails(id: string): Promise<Meal | null> {
   try {

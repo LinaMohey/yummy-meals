@@ -8,7 +8,3 @@ export interface Meal {
   [key: `strIngredient${number}`]: string | null; //bc of array loop to be dynmic
   [key: `strMeasure${number}`]: string | null;
 }
-
-export interface MealResponse {
-  meals: Meal[] | null;
-}
