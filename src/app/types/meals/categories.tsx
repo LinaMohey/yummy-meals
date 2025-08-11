@@ -1,3 +1,4 @@
+// let's keep it one file per type 
 export type Category = {
   idCategory: string;
   strCategory: string;
