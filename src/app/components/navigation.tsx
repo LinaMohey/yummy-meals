@@ -1,8 +1,8 @@
 "use client";
 
-import { Logo } from "./logo";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Logo } from "./Logo";
 
 export const Navigation: React.FC = () => {
   const pathname = usePathname();

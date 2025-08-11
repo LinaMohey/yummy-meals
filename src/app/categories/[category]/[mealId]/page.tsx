@@ -8,6 +8,8 @@ export default async function MealModal({
 }: {
   params: { mealId: string };
 }) {
+  // you need to await params first 
+  // https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes
   const meal = await getMealDetails(params.mealId);
   if (!meal) return null;
 
@@ -24,6 +26,7 @@ export default async function MealModal({
     <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50 p-4">
       <div className="bg-white rounded-2xl shadow-lg max-w-4xl w-full overflow-hidden relative">
         <Link
+          // this won't work
           href="."
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-lg"
         >

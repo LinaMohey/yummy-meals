@@ -4,7 +4,3 @@ export type Category = {
   strCategoryThumb: string;
   strCategoryDescription: string;
 };
-
-export type CategoryResponse = {
-  categories: Category[];
-};

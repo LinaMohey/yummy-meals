@@ -1,6 +1,5 @@
-import { Category, CategoryResponse } from "../../types/meals/categories";
-
-//here we will fetch the category itself
+import { Category } from "../../types/meals/categories";
+import { CategoryResponse } from "../../types/meals/categoryResponse";
 
 export async function getCategoryNames(): Promise<Category[]> {
   try {
